@@ -1,0 +1,7 @@
+#!/bin/bash
+
+branch=`git rev-parse --abbrev-ref HEAD`
+
+if [ "master" != "$branch" ]; then
+   exec /var/www/toggl/automate-toggl/toggl.py start $branch @123
+fi
