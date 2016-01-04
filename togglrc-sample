@@ -1,0 +1,11 @@
+[auth]
+username = mkajszczak@divante.pl
+password = 
+api_token = 
+
+[options]
+timezone = UTC
+time_format = %I:%M%p
+prefer_token = true
+continue_creates = true
+
